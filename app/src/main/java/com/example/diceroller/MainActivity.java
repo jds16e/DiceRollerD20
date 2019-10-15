@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
         imageViewDice = findViewById(R.id.image_view_dice);
         imageViewDice.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -188,5 +189,6 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
         }
+
     }
 }
